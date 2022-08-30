@@ -1,0 +1,1 @@
+class APIDataClass {  bool isSuccess;  dynamic data;  String? message;  APIDataClass({required this.isSuccess, this.data, this.message,});  factory APIDataClass.fromJson(Map<String, dynamic> json) {    return APIDataClass(      message: json['Message'] as String?,      isSuccess: json['IsSuccess'] as bool,      data: json['Data'] as String?    );  }}

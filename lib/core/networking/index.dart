@@ -1,0 +1,1 @@
+import 'package:service_app/core/configuration/app_apis.dart';import 'api.dart';Apis apis = Apis();AppApis appApis = AppApis();
